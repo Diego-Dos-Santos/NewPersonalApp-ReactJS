@@ -1,0 +1,99 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr 1fr 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 0.2em;
+    grid-auto-rows: 20vh auto;
+    padding-right: 4em;
+    padding-left: 4em;
+   
+  .sobremi {
+    align-items: center;
+    background: url("/images/Yo.jpg") no-repeat center;
+    background-size: cover;
+    grid-row: 1/3;
+    grid-column: 1/3;
+    color: white;
+    padding: 10% 5% 10% 5%;
+    :hover {
+        background-color: #630101;
+    }
+    
+    p {
+      display:none;
+    }
+
+    h2 {
+      display: none;
+    }
+  }
+
+  .sobremi:hover {
+    p{
+      display: block;
+    }
+
+    h2 {
+      display: block;
+      
+    }
+    background: #630101;
+
+  }
+
+    .conocimientos{
+    color: white;
+    background: black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    p {
+      display: none;
+    }
+    }
+  .contacto {
+    background: #630101;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;  
+    p {
+      display: none;
+    }
+  }
+
+  .conocimientos:hover{
+    background: #630101;
+
+    img {
+      display: none;
+    }
+
+    p {
+      display: block;
+      font-size: 0.8em;
+      text-align: center;
+      align-content: center;
+    }
+  }
+
+  .contacto:hover{
+    background: black;
+
+    img {
+      display: none;
+    }
+
+    p {
+      display: block;
+      font-size: 0.8em;
+      text-align: center;
+      align-content: center;
+    }
+  }
+
+img {
+    width: 15%;
+    display: block;
+    margin:auto;
+    text-align: center;
+  }
+}
