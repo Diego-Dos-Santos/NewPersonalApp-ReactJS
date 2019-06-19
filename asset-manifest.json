@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NewPersonalApp-ReactJS/static/css/main.2f1eecf4.chunk.css",
-    "main.js": "/NewPersonalApp-ReactJS/static/js/main.3efd1c5d.chunk.js",
-    "main.js.map": "/NewPersonalApp-ReactJS/static/js/main.3efd1c5d.chunk.js.map",
+    "main.css": "/NewPersonalApp-ReactJS/static/css/main.102c6131.chunk.css",
+    "main.js": "/NewPersonalApp-ReactJS/static/js/main.3a9fc3b9.chunk.js",
+    "main.js.map": "/NewPersonalApp-ReactJS/static/js/main.3a9fc3b9.chunk.js.map",
     "runtime~main.js": "/NewPersonalApp-ReactJS/static/js/runtime~main.b9225468.js",
     "runtime~main.js.map": "/NewPersonalApp-ReactJS/static/js/runtime~main.b9225468.js.map",
-    "static/js/2.5d755fd1.chunk.js": "/NewPersonalApp-ReactJS/static/js/2.5d755fd1.chunk.js",
-    "static/js/2.5d755fd1.chunk.js.map": "/NewPersonalApp-ReactJS/static/js/2.5d755fd1.chunk.js.map",
+    "static/js/2.908f3b79.chunk.js": "/NewPersonalApp-ReactJS/static/js/2.908f3b79.chunk.js",
+    "static/js/2.908f3b79.chunk.js.map": "/NewPersonalApp-ReactJS/static/js/2.908f3b79.chunk.js.map",
     "index.html": "/NewPersonalApp-ReactJS/index.html",
-    "precache-manifest.5669f547e31e2e32059bdb07b42cc1f2.js": "/NewPersonalApp-ReactJS/precache-manifest.5669f547e31e2e32059bdb07b42cc1f2.js",
+    "precache-manifest.1facd832d7057629234bd39410c16bbb.js": "/NewPersonalApp-ReactJS/precache-manifest.1facd832d7057629234bd39410c16bbb.js",
     "service-worker.js": "/NewPersonalApp-ReactJS/service-worker.js",
-    "static/css/main.2f1eecf4.chunk.css.map": "/NewPersonalApp-ReactJS/static/css/main.2f1eecf4.chunk.css.map"
+    "static/css/main.102c6131.chunk.css.map": "/NewPersonalApp-ReactJS/static/css/main.102c6131.chunk.css.map"
   }
 }
