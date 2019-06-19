@@ -6,15 +6,6 @@ import Navbar from './Navbar/navbar';
 import Footer from './Footer/footer';
 import Home from './App';
 
-
-function Error404 () {
-    return (
-        <div>
-            Error 404.
-        </div>
-    );
-}
-
 function Layout (props) {
     return (
         <div>
@@ -34,7 +25,6 @@ function Router () {
                     <Route path="/contacto" component={Contacto} exact/>
                     <Route path="/home" component={Home} exact/>
                     <Route path="/" component={Home} exact/>
-                    <Route path="*" component={Error404}/>
                 </Switch>
             </Layout>
         </BrowserRouter>
