@@ -2,8 +2,10 @@
   "name": "personal-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://diego-dos-santos.github.io/NewPersonalApp-ReactJS/",
+  "homepage": "https://39044399.servicio-online.net",
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
@@ -34,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0"
   }
 }

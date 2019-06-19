@@ -46,39 +46,43 @@
     background: black;
     padding-top: 1em;
     padding-bottom: 1em;
+    
+    p {
+      text-decoration: none;
+      color: white;
+    }
     a {
       text-decoration: none;
-    }
-    p {
-      display: none;
     }
     }
   .contacto {
     background: #630101;
-    color: white;
+    color:black;
     padding-top: 1em;
     padding-bottom: 1em; 
+    text-decoration: none;
+    i {
+      color:white;
+    }
     a {
       text-decoration: none;
     } 
+
     p {
-      display: none;
+        text-decoration: none;
+        color: black;
     }
   }
 
   .conocimientos:hover{
     background: #630101;
     text-decoration: none;
-    img {
-      display: none;
-    }
-
     p {
       display: block;
-      font-size: 0.8em;
       text-align: center;
       align-content: center;
-      color:white;
+      color:black;
+      font-weight: bolder;
       
     }
   }
@@ -92,16 +96,17 @@
 
     p {
       display: block;
-      font-size: 0.8em;
       text-align: center;
       align-content: center;
       color:white;
+      font-weight: bolder;
       text-decoration: none;
     }
   }
 
-img {
+i {
     width: 15%;
+    color:white;
     display: block;
     margin:auto;
     text-align: center;

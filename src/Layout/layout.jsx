@@ -20,13 +20,11 @@ class Layout extends Component {
                     <div className="conocimientos" title="Conocimientos">
                             <NavLink to="/conocimientos">
                                 <p>CONOCIMIENTOS</p>
-                                <img src="./icons/brain.png" alt="conocimientos"/>
                             </NavLink>
                     </div>
                     <div className="contacto" title="Contacto">
                             <NavLink to="/contacto">
                                 <p>CONTACTO</p>
-                                <img src="./icons/email.png" alt="contactos"/>
                             </NavLink>
                     </div>
                 </nav>

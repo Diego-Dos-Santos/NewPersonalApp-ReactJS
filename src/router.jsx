@@ -23,8 +23,9 @@ function Router () {
                 <Switch>
                     <Route path="/conocimientos" component={Conocimientos} exact/>
                     <Route path="/contacto" component={Contacto} exact/>
-                    <Route path="/home" component={Home} exact/>
-                    <Route path="/" component={Home} exact/>
+                    <Route path="" component={Home} exact/>
+                    <Route path="" component={Home} exact/>
+                    <Route path="" component={Home} exact/>
                 </Switch>
             </Layout>
         </BrowserRouter>
