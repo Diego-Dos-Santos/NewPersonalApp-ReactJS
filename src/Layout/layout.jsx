@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './layout.scss'
 import {NavLink} from 'react-router-dom';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Layout extends Component {
     render(){
         return (
-            <nav id="wrapper">
+            <ScrollAnimation animateIn="fadeIn" duration="3">
+                <nav id="wrapper">
                     <div className="sobremi">     
                         <h2>SOBRE MI</h2>
                         <p>
@@ -27,7 +29,8 @@ class Layout extends Component {
                                 <img src="./icons/email.png" alt="contactos"/>
                             </NavLink>
                     </div>
-            </nav>
+                </nav>
+            </ScrollAnimation>
         );
     }
 }

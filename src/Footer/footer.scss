@@ -1,5 +1,6 @@
 #footer {
         text-align:center;
+        box-sizing: border-box;
         padding-bottom: 1.5em;
         a {
             text-decoration:none;
@@ -26,7 +27,6 @@
                 border-top:5px;
                 border-top-color: #630101;
                 border-style:solid;
-                margin-right: 1.5em;
                 padding-top:0.5em;
         }
 }

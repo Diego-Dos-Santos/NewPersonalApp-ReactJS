@@ -1,0 +1,33 @@
+#contacto {
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    text-align: center;
+    padding-right: 4em;
+    padding-left: 4em;  
+    align-items: center;
+    box-sizing: content-box;
+
+    > div {
+        background: #5f1b1b;
+        color: white; 
+    }
+
+    >div:nth-child(odd){
+        background: white;
+        color:black;
+    }
+
+    .conocimientos {
+        margin-bottom: 10%;
+        h2 {
+            color:white;
+        }
+    }
+    
+
+    a {
+        text-decoration: none;
+        color:black;
+    }
+
+}

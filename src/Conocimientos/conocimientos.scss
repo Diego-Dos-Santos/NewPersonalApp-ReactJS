@@ -1,0 +1,42 @@
+#wrapper-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1em;
+    text-align: center;
+    align-items: center;
+    padding-right: 4em;
+    padding-left: 4em; 
+    background:white;
+    grid-auto-rows: 20vh auto;
+    
+
+    > div {
+        background: #5f1b1b;
+        padding: 1em;
+        color:white;
+    }
+
+    >div:nth-child(odd){
+        background: transparent;
+        color:black;
+    }
+
+
+    i {
+        font-size: 3em;   
+    }
+
+    .home {
+        h2{
+            color:white;
+        }
+    }
+
+    h2 {
+        color: black;
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

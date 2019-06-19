@@ -5,9 +5,9 @@ class Footer extends Component {
     render(){
         return (
             <section id="footer">
-                <a href="http://github.com"className="github">GitHub</a>
-                <a href="http://linkedin.com"className="linkedin">LinkedIn</a>
-                <a href="http://instagram.com"className="instagram">Instagram</a>
+                <a href="https://github.com/Diego-Dos-Santos" target="_blank" rel="noopener noreferrer" className="github">GitHub</a>
+                <a href="https://www.linkedin.com/in/diego-dos-santos-38973b17b/" target="_blank" rel="noopener noreferrer" className="linkedin">LinkedIn</a>
+                <a href="https://www.instagram.com/diegogarfieldjj" target="_blank" rel="noopener noreferrer"className="instagram">Instagram</a>
             </section>
         )
     }

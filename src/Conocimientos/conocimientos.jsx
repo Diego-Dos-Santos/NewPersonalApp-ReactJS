@@ -5,7 +5,7 @@ import {NavLink} from 'react-router-dom';
 class Conocimientos extends Component {
     render(){
         return (
-            <nav id="wrapper-2">
+                <nav id="wrapper-2">
                     <div className="conocimientos"> 
                         <h2>Conocimientos</h2>
                         <p>Me han enseñado muchas cosas; aqui están algunas de las que he aprendido</p>
@@ -60,7 +60,7 @@ class Conocimientos extends Component {
                             <h2>Contacto</h2>
                         </NavLink>
                     </div>
-            </nav>
+                </nav>   
         );
     }
 }

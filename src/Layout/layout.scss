@@ -5,7 +5,7 @@
     grid-gap: 0.2em;
     grid-auto-rows: 20vh auto;
     padding-right: 4em;
-    padding-left: 4em;
+    padding-left: 4em;  
    
   .sobremi {
     align-items: center;
@@ -46,6 +46,9 @@
     background: black;
     padding-top: 1em;
     padding-bottom: 1em;
+    a {
+      text-decoration: none;
+    }
     p {
       display: none;
     }
@@ -54,7 +57,10 @@
     background: #630101;
     color: white;
     padding-top: 1em;
-    padding-bottom: 1em;  
+    padding-bottom: 1em; 
+    a {
+      text-decoration: none;
+    } 
     p {
       display: none;
     }
@@ -62,7 +68,7 @@
 
   .conocimientos:hover{
     background: #630101;
-
+    text-decoration: none;
     img {
       display: none;
     }
@@ -72,6 +78,8 @@
       font-size: 0.8em;
       text-align: center;
       align-content: center;
+      color:white;
+      
     }
   }
 
@@ -87,6 +95,8 @@
       font-size: 0.8em;
       text-align: center;
       align-content: center;
+      color:white;
+      text-decoration: none;
     }
   }
 
